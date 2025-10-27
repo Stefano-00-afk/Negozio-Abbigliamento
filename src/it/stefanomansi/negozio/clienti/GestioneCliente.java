@@ -32,9 +32,7 @@ public class GestioneCliente {
             System.out.println("Nessun Cliente da visualizzare");
         }
         else{
-            for(Cliente cliente : clienti){
-                System.out.println(cliente);
-            }
+            clienti.forEach(System.out::println);
         }
 
     }

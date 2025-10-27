@@ -53,6 +53,7 @@ public class Cliente {
     @Override
     public String toString() {
 
-        return "id cliente : " + getId() + "\n Nome e Cognome :" + getNome() + " " + getCognome() + "\nEmail:" + getEmail();
+        return "Ecco le informazioni del Cliente :\nId cliente : " + getId() +
+                "\nNome e Cognome : " + getNome() + " " + getCognome() + "\nEmail : " + getEmail() +"\n";
     }
 }
